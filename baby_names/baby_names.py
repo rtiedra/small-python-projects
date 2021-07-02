@@ -55,5 +55,5 @@ def main():
     else:
       print(text)
   
-if __name__ == '__main__':
+if __name__ == '__main__' and '__file__' in globals():
   main()
